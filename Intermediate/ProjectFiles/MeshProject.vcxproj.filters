@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MeshProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{37DC6C61-2931-4FA5-8B08-ACFA74B0B839}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MeshProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MeshProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BE7CF6F5-05FA-4848-A6EC-23B8F27E3B48}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MeshProject">
+      <UniqueIdentifier>{09753AE1-C5BF-40B0-BB78-BCDC1ED871EB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MeshProject\GameGeneratedActor.cpp">
+      <Filter>Source\MeshProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MeshProject\GameGeneratedActor.h">
+      <Filter>Source\MeshProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MeshProject\GeneratedMeshComponent.cpp">
+      <Filter>Source\MeshProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MeshProject\GeneratedMeshComponent.h">
+      <Filter>Source\MeshProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MeshProject\MeshProject.Build.cs">
+      <Filter>Source\MeshProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MeshProject\MeshProject.cpp">
+      <Filter>Source\MeshProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MeshProject\MeshProject.h">
+      <Filter>Source\MeshProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MeshProject\MeshProjectGameModeBase.cpp">
+      <Filter>Source\MeshProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MeshProject\MeshProjectGameModeBase.h">
+      <Filter>Source\MeshProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{d6bb66d3-ad7b-4fbf-897f-92c770f8ef8c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MeshProject\Tool\UE4Helper.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MeshProject\Tool\UE4Helper.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
